@@ -76,6 +76,10 @@ img {
 .wrapper {
 	min-height: 100%; 
 }
+.header{
+	background: url(../images/rio.png);
+    background-size: cover;
+}
 
 .container{
 	width: 1170px;
@@ -147,6 +151,7 @@ img {
 }
 
 .toggle-menu{
+	z-index:10;
 	position: fixed;
     top: 40px;
     right: 50px;
@@ -157,13 +162,10 @@ img {
     font-size: 18px;
 }
 
-.title{
-	background: url(../images/rio.png);
-    background-size: cover;
-}
+
 
 .title_text1, .title_text2{
-	margin: 170px 0px 152px 0px;
+	margin: 170px 0px 150px 0px;
 	
 }
 
@@ -189,9 +191,7 @@ img {
 
 }
 
-.slider_pics{
-	display:inline-block;
-}
+
 
 .slider_pics li{
 	margin-bottom:40px;
@@ -199,7 +199,9 @@ img {
 	text-align:center;
 }
 
-
+.slider_pics .pics1, .slider_pics .pics2{
+	display:none;
+}
 
 .bx-pager{
 	
@@ -208,6 +210,14 @@ img {
 .bx-pager-item{
 	margin-right:18px;
 }
+
+ .bx-pager-item:nth-child(5){
+	display:none !important;
+}
+.bx-pager-item:nth-child(6){
+	display:none !important;
+}
+
 
 .bx-wrapper{
 	display:inline-block;
