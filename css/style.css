@@ -76,9 +76,10 @@ img {
 .wrapper {
 	min-height: 100%; 
 }
-.header{
-	background: url(../images/rio.png);
+.title{
+	background: url(../images/rio.png) #e1eaed;
     background-size: cover;
+	
 }
 
 .container{
@@ -199,9 +200,12 @@ img {
 	text-align:center;
 }
 
+
+
 .slider_pics .pics1, .slider_pics .pics2{
 	display:none;
 }
+
 
 .bx-pager{
 	
@@ -221,4 +225,123 @@ img {
 
 .bx-wrapper{
 	display:inline-block;
+}
+
+.main_content{
+
+	background:#e1eaed;
+}
+
+.showcases{
+	margin-right:-10px;
+	display:inline-block;
+}
+
+.title_tours h2{
+	display:block;
+	font-size:16px;
+	font-weight:800;
+	color:#182438;
+	padding:45px 0;
+}
+
+.tours div{
+	display:inline-block;
+	text-align:center;
+	width:255px;
+	background:#fff;
+	margin:0 28px 28px 0;
+}
+
+
+
+.siders{
+	float:right!important;
+	background:#fff;
+	margin-top:17px;
+	padding:26px 22px 25px 17px;
+	
+}
+
+.tours a{
+	display:inline-block;
+	margin-top:8px;
+}
+
+.tours span{
+	
+	margin:16px 0px 16px 9px;
+	word-spacing:4px;
+	line-height:18px;
+	float:left;
+	font-weight:800;
+	font-size:11px;
+	text-align:left;
+	display:inline-block;
+}
+
+.tours .text2, .text2+.text3{
+	color:#92a9b0;
+}
+.tours .text2{
+	
+	margin:0px 0px 16px 9px;
+	
+}
+
+.text2+.text3{
+	margin:0px 9px 16px 0px;
+	float:right;
+	
+}
+
+.news{
+	
+}
+
+
+
+.news_title h2{
+	display:block;
+	padding-bottom:50px;
+	font-size:16px;
+	font-weight:800;
+	
+}
+
+.new_text{
+	margin-bottom:35px;
+}
+
+.news a{
+	display:inline-block;
+	font-size:11px;
+	font-weight:800;
+	color:#494a4b;
+	text-decoration:underline;
+	line-height:18px;
+	text-align:left;
+	margin-bottom:20px;
+
+}
+
+.news span{
+	display:block;
+	font-size:11px;
+	font-weight:800;
+	color:#aeb3ba;
+	
+}
+
+.news span a{
+	
+	font-size:11px;
+	font-weight:800;
+	color:#8c929d;
+	margin-bottom:0;
+	
+}
+
+.all_news{
+	float:right;
 }
