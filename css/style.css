@@ -83,7 +83,7 @@ img {
 }
 
 .container{
-	width: 1170px;
+	width: 1150px;
 	display: table;
 	margin: 0 auto;
 }
@@ -166,7 +166,7 @@ img {
 
 
 .title_text1, .title_text2{
-	margin: 170px 0px 150px 0px;
+	margin: 150px 0px 150px 0px;
 	
 }
 
@@ -230,10 +230,10 @@ img {
 .main_content{
 
 	background:#e1eaed;
+	padding-bottom:25px;
 }
 
 .showcases{
-	margin-right:-10px;
 	display:inline-block;
 }
 
@@ -250,7 +250,7 @@ img {
 	text-align:center;
 	width:255px;
 	background:#fff;
-	margin:0 28px 28px 0;
+	margin:0 14px 14px 0;
 }
 
 
@@ -295,8 +295,8 @@ img {
 	
 }
 
-.news{
-	
+.news div:nth-child(5), .news_tourist div:nth-child(4){
+	margin-bottom:17px;
 }
 
 
@@ -313,19 +313,30 @@ img {
 	margin-bottom:35px;
 }
 
-.news a{
+.news a, .news_tourist a{
 	display:inline-block;
 	font-size:11px;
 	font-weight:800;
 	color:#494a4b;
-	text-decoration:underline;
 	line-height:18px;
 	text-align:left;
 	margin-bottom:20px;
 
 }
 
-.news span{
+.news a:hover {
+	
+	text-decoration:underline;	
+}
+
+.news_tourist a:hover {
+	
+	text-decoration:underline;
+	
+
+}
+
+.news span, .news_tourist span{
 	display:block;
 	font-size:11px;
 	font-weight:800;
@@ -333,7 +344,7 @@ img {
 	
 }
 
-.news span a{
+.news span a, .news_tourist span a{
 	
 	font-size:11px;
 	font-weight:800;
@@ -342,6 +353,134 @@ img {
 	
 }
 
-.all_news{
+.all_news, .tour_news{
 	float:right;
+	display:inline-block;
+	
+}
+
+.blogs{
+	background:#e1eaed;
+}
+
+.blogs .container{
+	background:#fff;
+}
+
+.blog {
+	
+	display:inline-block;
+	width:380px;
+	margin-bottom:33px;
+	padding-left:20px;
+	
+}
+
+
+.blog a{
+	display:inline-block;
+	color:#111929;
+	font-size:11px;
+}
+
+.blog_title h2{
+	font-weight:800;
+	padding:11px 0 34px 20px;
+}
+
+.blog img{
+	float:left;
+}
+
+.blog span{
+	padding:0 14px;
+	
+}
+
+.blog_text{
+	text-align:left;
+	line-height:18px;
+	word-spacing:2px;
+	font-weight:800;
+	display:inline-block;
+	float:left;
+	margin-bottom:27px;
+}
+
+.blog_text:hover{
+	text-decoration:underline;
+}
+
+.blog_date{
+	color:#717475;
+	float:left;
+}
+
+.about{
+	background:#e1eaed;
+	padding-bottom:100px;
+}
+
+.about_text{
+	font-size:11px;
+	color:#111929;
+	line-height:20px;
+	padding:0 20px 100px;
+	
+}
+
+.about_title h2{
+	font-size:16px;
+	font-weight:800;
+	color:#182438;
+	padding: 33px 0 26px 0px;
+}
+
+form {
+	width:306px;
+	background:#fff;
+	padding:19px 23px 23px 21px;
+	float:right;
+	clear: both;
+}
+
+.form_title{
+	float:right;
+}
+
+.form_title h2{
+	
+	font-weight:600;
+	text-align:right;
+	padding:35px 21px 18px;
+	word-spacing:3px;
+	letter-spacing:1px;
+}
+
+input{
+	font-size:11px;
+	font-weight:600;
+	color:#b8bcc9;
+	background:#f6f7fb;
+	border:none;
+	outline:none;
+	width:264px;
+	padding:14px 0 14px 12px;
+	margin-bottom:12px;
+}
+
+.submit{
+	background:#249d10;
+	cursor:pointer;
+	font-size:13px;
+	color:#fff;
+	text-align:center;
+	padding:14px 0 14px 0px;
+	margin-top:10px;
+	
+}
+
+.blog_footer{
+	background:#152134;
+	
 }

@@ -20,9 +20,6 @@
 	width:28%;
 }
 
-.tours div:nth-child(3n){
-	margin-right:0;
-}
 
 @media (max-width: 1170px) {
   .container {
@@ -42,10 +39,23 @@
 .col-ultra-lg-11{float: left; width: 91.66666667%}
 .col-ultra-lg-12{float: left; width: 100%}
 
-.tours div:nth-child(3n){
-	margin-right:28px;
+.tours div{
+	
+	margin:0 28px 28px 0;
+}
+.blog_text br{
+	display:none;
+	
 }
 
+.blog_text {
+	margin-top:10px;
+}
+
+.blog span {
+    padding: 0px;
+	
+}
 }
 
 
@@ -74,6 +84,7 @@
 .tours div:nth-child(3n) {
     margin-right: 14px;
 }
+
 }
 
 @media(max-width: 768px) {
@@ -146,13 +157,57 @@
 		text-align:center;
 	}
 	
+	
+	.siders{
+	margin-top:25px;
+}
 
 .new_text br{
 	display:none;
 }
 
+.blog_text {
+	margin-top:10px;
 }
 
+.blog_text br{
+	display:none;
+}
+
+.blogs .container{
+	padding:0 22px 17px; 
+}
+
+.blog img{
+	display:none !important;
+}
+
+.blog span {
+    padding: 0px;
+	margin-right:50px;
+}
+
+.form_title {
+	background:#fff;
+	float:left;
+}
+
+.form_title h2{
+	text-align:left;
+}
+
+form {
+	width:100%;
+	float:left;	
+}
+
+}
+
+
+@media (max-width:709px){
+	 
+
+}
 
 @media(max-width: 480px) {
 .col-xs-1{float: left; width: 8.33333333%}
@@ -193,5 +248,11 @@
 .slider_pics li ul li{
 	border:3px solid #152134;
 }
+.blog span {
+	margin-right:0px;
+}
+}
 
+@media (max-width:396px){
+	
 }
