@@ -86,6 +86,11 @@ div, span, a, h2, input{
 	
 }
 
+.top{
+	background: #152134;
+}
+
+
 .container{
 	width: 1150px;
 	display: table;
