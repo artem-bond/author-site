@@ -512,13 +512,14 @@ input{
 
 footer{
 	background:#152134;
-	
+		padding:0 35px;
 }
+
 
 .foot-nav ul{
 	margin:auto;
 	width:300px;
-	
+	display:block;
 }
 
 .foot-nav ul li {
