@@ -73,6 +73,9 @@ img {
 	height: auto;
 }
 
+div, span, a, h2{
+	text-transform:uppercase;
+}
 
 .wrapper {
 	min-height: 100%; 
@@ -244,15 +247,15 @@ header{
 	margin:16px 0px 16px 0px;
 	word-spacing:4px;
 	line-height:18px;
-	float:left;
 	font-weight:800;
 	font-size:11px;
 	text-align:left;
 	display:inline-block;
+	
 }
 
 
-.showcases div{
+.showcases>div{
 	display:inline-block;
 	text-align:center;
 	background:#fff;
@@ -292,20 +295,25 @@ header{
 
 
 
-.showcases .text2, .text2+.text3{
-	color:#92a9b0;
-}
-.showcases .text2{
+.showcases span:nth-child(3),.showcases span:nth-child(4){
 	
-	margin:0px 0px 16px 0px;
+	color:#92a9b0;
 	
 }
 
-.text2+.text3{
-	margin:0px 0px 16px 0px;
+
+.showcases span:nth-child(3){
+	
+	float:left;
+	
+}
+
+.showcases span:nth-child(4){
+	
 	float:right;
 	
 }
+
 
 .news div:nth-child(5), .news_tourist div:nth-child(4){
 	margin-bottom:17px;
@@ -379,6 +387,11 @@ header{
 	background:#fff;
 }
 
+.item-img{
+	display:inline-block;
+	float:left;
+}
+
 .blog {
 	
 	display:inline-block;
@@ -426,6 +439,8 @@ header{
 .blog_date{
 	color:#717475;
 	float:left;
+	font-size:11px;
+	font-weight:600;
 }
 
 .about{

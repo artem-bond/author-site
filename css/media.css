@@ -246,13 +246,13 @@ form {
 	
 }
 
-.showcases div{
+.showcases>div{
 	border:none;
 	border-bottom:27px solid #e1eaed;
 	
 }
 
-.text2+.text3 {
+.showcases span {
     float:left;
 }
 
