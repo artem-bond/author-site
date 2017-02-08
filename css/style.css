@@ -234,7 +234,7 @@ header{
 .main_content{
 
 	background:#e1eaed;
-	padding-bottom:5px;
+	padding-bottom:17px;
 }
 
 .showcases{
@@ -281,7 +281,7 @@ header{
 }
 
 
-.aside-item{
+aside{
 	float:right!important;
 	background:#fff;
 	margin-top:17px;
@@ -315,7 +315,7 @@ header{
 }
 
 
-.news div:nth-child(5), .news_tourist div:nth-child(4){
+aside div{
 	margin-bottom:17px;
 }
 
@@ -333,7 +333,7 @@ header{
 	margin-bottom:35px;
 }
 
-.news a, .news_tourist a{
+aside a{
 	display:inline-block;
 	font-size:11px;
 	font-weight:800;
@@ -344,19 +344,16 @@ header{
 
 }
 
-.news a:hover {
-	
-	text-decoration:underline;	
-}
 
-.news_tourist a:hover {
+
+aside a:hover {
 	
 	text-decoration:underline;
 	
 
 }
 
-.news span, .news_tourist span{
+aside span{
 	display:block;
 	font-size:11px;
 	font-weight:800;
@@ -364,7 +361,7 @@ header{
 	
 }
 
-.news span a, .news_tourist span a{
+aside span a{
 	
 	font-size:11px;
 	font-weight:800;
@@ -376,6 +373,7 @@ header{
 .all_news, .tour_news{
 	float:right;
 	display:inline-block;
+	clear:both;
 	
 }
 
@@ -389,6 +387,11 @@ header{
 
 .item-img{
 	display:inline-block;
+	/* float:left; */
+}
+
+.blog .item-img{
+	
 	float:left;
 }
 

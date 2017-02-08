@@ -12,13 +12,9 @@
 .col-lg-11{float: left; width: 91.66666667%}
 .col-lg-12{float: left; width: 100%}
 
-.showcases{
-	    width:71%;
-}
 
-.aside-item{
-	width:28%;
-}
+
+
 
 
 @media (max-width: 1170px) {
@@ -154,7 +150,7 @@
 	margin-bottom:25px;
 }
 
-.new_text br{
+.aside-item br{
 	display:none;
 }
 
@@ -256,18 +252,10 @@ form {
     float:left;
 }
 
-.main_content {
-
-    padding-bottom:0px;
-}
 
 .title_tours h2 {
    
     text-align:center;
-}
-
-.aside-item{
-	
 }
 
 }
