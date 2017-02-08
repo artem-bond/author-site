@@ -282,7 +282,7 @@ div, span, a, h2, input{
 }
 
 
-aside{
+.item{
 	float:right!important;
 	background:#fff;
 	margin-top:17px;
@@ -316,7 +316,7 @@ aside{
 }
 
 
-aside div{
+.right-sidebar div{
 	margin-bottom:17px;
 }
 
@@ -330,11 +330,11 @@ aside div{
 	
 }
 
-.new_text{
+.aside-item{
 	margin-bottom:35px;
 }
 
-aside a{
+.right-sidebar a{
 	display:inline-block;
 	font-size:11px;
 	font-weight:800;
@@ -347,14 +347,14 @@ aside a{
 
 
 
-aside a:hover {
+.right-sidebar a:hover {
 	
 	text-decoration:underline;
 	
 
 }
 
-aside span{
+.right-sidebar span{
 	display:block;
 	font-size:11px;
 	font-weight:800;
@@ -362,7 +362,7 @@ aside span{
 	
 }
 
-aside span a{
+.right-sidebar span a{
 	
 	font-size:11px;
 	font-weight:800;
@@ -388,7 +388,6 @@ aside span a{
 
 .item-img{
 	display:inline-block;
-	/* float:left; */
 }
 
 .blog .item-img{
@@ -511,7 +510,26 @@ input{
 	
 }
 
-.blog_footer{
+footer{
 	background:#152134;
 	
+}
+
+.foot-nav ul{
+	margin:auto;
+	width:300px;
+	
+}
+
+.foot-nav ul li {
+    float: left;
+}
+
+.foot-nav ul li a {
+	font-weight:800;
+    text-decoration: none;
+    padding: 32px 15px;
+    font-size: 11px;
+    color: #fff;
+    display: block;
 }
