@@ -73,7 +73,7 @@ img {
 	height: auto;
 }
 
-div, span, a, h2{
+div, span, a, h2, input{
 	text-transform:uppercase;
 }
 
