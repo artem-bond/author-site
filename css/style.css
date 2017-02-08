@@ -73,10 +73,11 @@ img {
 	height: auto;
 }
 
+
 .wrapper {
 	min-height: 100%; 
 }
-.title{
+.header{
 	background: url(../images/rio.png) #e1eaed;
     background-size: cover;
 	
@@ -130,7 +131,7 @@ img {
 	height:5px;
 }
 
-.top_bar{
+header{
 	background:#152134;
 }
 
@@ -237,40 +238,10 @@ img {
 	display:inline-block;
 }
 
-.title_tours h2{
-	display:block;
-	font-size:16px;
-	font-weight:800;
-	color:#182438;
-	padding:45px 0;
-}
 
-.tours div{
-	display:inline-block;
-	text-align:center;
-	width:255px;
-	background:#fff;
-	margin:0 14px 14px 0;
-}
-
-
-
-.siders{
-	float:right!important;
-	background:#fff;
-	margin-top:17px;
-	padding:26px 22px 25px 17px;
+.showcases span{
 	
-}
-
-.tours a{
-	display:inline-block;
-	margin-top:8px;
-}
-
-.tours span{
-	
-	margin:16px 0px 16px 9px;
+	margin:16px 0px 16px 0px;
 	word-spacing:4px;
 	line-height:18px;
 	float:left;
@@ -280,17 +251,58 @@ img {
 	display:inline-block;
 }
 
-.tours .text2, .text2+.text3{
+
+.showcases div{
+	display:inline-block;
+	text-align:center;
+	background:#fff;
+	padding:10px;
+	border:27px solid #e1eaed;
+	border-left:none;
+	border-top:none;
+}
+
+.title_tours{
+	background:transparent !important;
+	padding: 45px 0 !important;
+	border:none !important;
+}
+
+.title_tours h2{
+	display:block;
+	font-size:16px;
+	font-weight:800;
+	color:#182438;
+	text-align:left;
+	
+}
+
+
+.aside-item{
+	float:right!important;
+	background:#fff;
+	margin-top:17px;
+	padding:26px 22px 25px 17px;
+	
+}
+
+.showcases a{
+	display:inline-block;
+}
+
+
+
+.showcases .text2, .text2+.text3{
 	color:#92a9b0;
 }
-.tours .text2{
+.showcases .text2{
 	
-	margin:0px 0px 16px 9px;
+	margin:0px 0px 16px 0px;
 	
 }
 
 .text2+.text3{
-	margin:0px 9px 16px 0px;
+	margin:0px 0px 16px 0px;
 	float:right;
 	
 }

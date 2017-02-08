@@ -16,7 +16,7 @@
 	    width:71%;
 }
 
-.siders{
+.aside-item{
 	width:28%;
 }
 
@@ -39,10 +39,7 @@
 .col-ultra-lg-11{float: left; width: 91.66666667%}
 .col-ultra-lg-12{float: left; width: 100%}
 
-.tours div{
-	
-	margin:0 28px 28px 0;
-}
+
 .blog_text br{
 	display:none;
 	
@@ -78,12 +75,6 @@
 .col-st-11{float: left; width: 91.66666667%}
 .col-st-12{float: left; width: 100%}
 
-.tours div{
-	margin: 0 14px 14px 0;
-}
-.tours div:nth-child(3n) {
-    margin-right: 14px;
-}
 
 }
 
@@ -148,7 +139,7 @@
 	text-align:center;
 }
 
-.showcases .tours {
+.showcases {
 		display:inline-block;
 		text-align:center;
 	}
@@ -158,8 +149,9 @@
 	}
 	
 	
-	.siders{
-	margin-top:25px;
+	.aside-item{
+		margin-top:0px;
+	margin-bottom:25px;
 }
 
 .new_text br{
@@ -177,6 +169,8 @@
 .blogs .container{
 	padding:0 22px 17px; 
 }
+
+
 
 .blog img{
 	display:none !important;
@@ -204,10 +198,6 @@ form {
 }
 
 
-@media (max-width:709px){
-	 
-
-}
 
 @media(max-width: 480px) {
 .col-xs-1{float: left; width: 8.33333333%}
@@ -251,6 +241,35 @@ form {
 .blog span {
 	margin-right:0px;
 }
+.showcases span{
+	float:none;
+	
+}
+
+.showcases div{
+	border:none;
+	border-bottom:27px solid #e1eaed;
+	
+}
+
+.text2+.text3 {
+    float:left;
+}
+
+.main_content {
+
+    padding-bottom:0px;
+}
+
+.title_tours h2 {
+   
+    text-align:center;
+}
+
+.aside-item{
+	
+}
+
 }
 
 @media (max-width:396px){
